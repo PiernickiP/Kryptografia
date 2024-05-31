@@ -1,0 +1,18 @@
+     image_size  message_length  encrypt_time  decrypt_time  new_image_size     message_correct
+0       100kb              10      0.041429      0.013264          101600             True
+1       100kb             100      0.004745      0.014633          101602             True
+2       100kb            1000      0.025017      0.026999          101566             True
+3       100kb           10000      0.204818      0.142625           99750             True
+4         1mb              10      0.012376      0.023429         1047128             True
+5         1mb             100      0.014054      0.023433         1047128             True
+6         1mb            1000      0.031122      0.035488         1047127             True
+7         1mb           10000      0.204477      0.147347         1047128             True
+8        10mb              10      0.098745      0.121761        10471872             True
+9        10mb             100      0.098835      0.129669        10471876             True
+10       10mb            1000      0.127013      0.146442        10471875             True
+11       10mb           10000      0.299996      0.261748        10471873             True
+
+Odpalenie szyfrowania:
+trzeba mieć zainstalowane pythona i biblioteki użyte w skrypcie: stegano i pandas (użyto tylko modułu DataFrame to eleganckiego
+wyświetlenia wyników)
+następnie w bashu/cmd lub edytorze kodu jak VSC odpalić skrypt. Wyniki powinny się wyświetlić w wierszu poleceń.
